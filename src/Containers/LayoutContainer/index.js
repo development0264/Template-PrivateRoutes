@@ -1,9 +1,12 @@
 import React from 'react'
-import { Login } from '../../Pages'
+import { Outlet } from 'react-router-dom';
+
 
 const LayoutContainer = () => {
     return (
-        <div><Login /></div>
+        <>Layout
+            <Outlet />
+        </>
     )
 }
 
